@@ -114,8 +114,8 @@ public class LookupService {
         private final static int STANDARD_RECORD_LENGTH = 3;
         private final static int ORG_RECORD_LENGTH = 4;
         private final static int MAX_RECORD_LENGTH = 4;
-        private final static int MAX_ORG_RECORD_LENGTH = 300;
-        private final static int FULL_RECORD_LENGTH = 60;
+        private final static int MAX_ORG_RECORD_LENGTH = 60;
+        private final static int FULL_RECORD_LENGTH = 300;
         private final Country UNKNOWN_COUNTRY = new Country("--", "N/A");
         private static final HashMap hashmapcountryCodetoindex = new HashMap(512);
         private static final HashMap hashmapcountryNametoindex = new HashMap(512);
